@@ -1,0 +1,9 @@
+name: a very bored person
+markdown: kramdown
+
+defaults:
+    -
+        scope:
+            path: ""
+        values:
+            layout: "post"
