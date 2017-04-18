@@ -1,0 +1,11 @@
+---
+layout: home
+title: chronic boredom
+description: the boring writings of a boring person
+---
+
+<ul id="postbox">
+    {% for post in site.posts %}
+        <li><a href={{ post.url }}>{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
