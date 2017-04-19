@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+}
+
+main {
+    padding: 0;
+    margin-left: 0;
+}
+
+a, a:link, a:visited {
+    text-decoration: underline dotted;
+    font-style: italic;
+    
+    color: #000;
+}
+
+h1 {
+    font-family: Copperplate;
+}
+
+ul#postbox {
+    list-style-type: none;
+}
+
+ul#postbox li {
+    font-size: 18pt;
+}
