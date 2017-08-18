@@ -18,6 +18,13 @@ h1 {
     font-family: Georgia
 }
 
+img {
+    border: 1px solid #404040;
+
+    width: 30%;
+    height: auto;
+}
+
 ul#postbox {
     list-style-type: none;
 }
