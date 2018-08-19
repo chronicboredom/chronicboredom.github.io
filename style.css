@@ -1,17 +1,29 @@
 @font-face {
-        font-family: abhaya-libre;
-        src: url(/fonts/abhaya-libre/AbhayaLibre-Medium.ttf);
+        font-family: charis;
+        src: url(/fonts/cambo/CharisSILR.ttf);
 }
 
 @font-face {
-        font-family: abhaya-libre;
+        font-family: charis;
         font-weight: bold;
-        src: url(/fonts/abhaya-libre/AbhayaLibre-ExtraBold.ttf);
+        src: url(/fonts/cambo/CharisSILB.ttf);
 }
 
+@font-face {
+        font-family: charis;
+        font-weight: bold;
+        font-style: italic;
+        src: url(/fonts/cambo/CharisSILB.ttf);
+}
+
+@font-face {
+        font-family: charis;
+        font-style: italic;
+        src: url(/fonts/cambo/CharisSILB.ttf);
+}
 
 body {
-    font-family: abhaya-libre;
+    font-family: charis;
 }
 
 main {
