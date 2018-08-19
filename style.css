@@ -1,3 +1,7 @@
+body {
+    font-family: Georgia;
+}
+
 main {
     padding: 0;
     margin-left: 0;
@@ -10,8 +14,20 @@ a, a:link, a:visited {
     color: #000;
 }
 
+footer {
+        border-top: 1px solid #000000;
+        padding: 10px;
+
+        font-size: 10pt;
+        font-style: italic;
+        text-align: center;
+
+        width: 35%;
+        
+        margin: 30px auto;
+}
+
 h1 {
-    font-family: Georgia;
     text-align: center;
 }
 
@@ -30,17 +46,16 @@ li {
 }
 
 p {
-    font-family: Georgia;
     font-size: 12pt;
     text-align: justify;
 
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 p::first-letter {
     font-weight: bold;
-    font-size: 20pt;
+    font-size: 18pt;
 }
 
 p::last-child {

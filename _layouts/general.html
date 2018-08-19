@@ -14,5 +14,15 @@
         <main>
             {{ content }}
         </main>
+
+        <footer>
+                {% assign m = page.date | date: "%B" %} 
+                {% case m %}
+                    {% when'April' or 'May' or 'June' or 'July' %}{{ m }}
+                    {% when 'September' %}Sept.
+                    {% else %}{{ page.date | date: "%b" }}.
+                {% endcase %}
+                {{ page.date | date: " %d, %Y" }}
+        </footer>
     </body>
 </html>
