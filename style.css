@@ -1,29 +1,29 @@
 @font-face {
-        font-family: georgia;
+        font-family: georgia-new;
         src: url(/fonts/georgia/Georgia.ttf);
 }
 
 @font-face {
-        font-family: georgia;
+        font-family: georgia-new;
         font-weight: bold;
         src: url(/fonts/georgia/Georgia-Bold.ttf);
 }
 
 @font-face {
-        font-family: georgia;
+        font-family: georgia-new;
         font-weight: bold;
         font-style: italic;
-        src: url(/fonts/georgia/Georgia-Bold.ttf);
+        src: url(/fonts/georgia/Georgia-Bold-Italic.ttf);
 }
 
 @font-face {
-        font-family: georgia;
+        font-family: georgia-new;
         font-style: italic;
-        src: url(/fonts/georgia/Georgia-Bold.ttf);
+        src: url(/fonts/georgia/Georgia-Italic.ttf);
 }
 
 body {
-    font-family: dustismo;
+    font-family: georgia-new;
 }
 
 main {
