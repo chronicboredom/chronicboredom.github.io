@@ -15,6 +15,7 @@
             {{ content }}
         </main>
 
+        {% if page.date %}
         <footer>
                 {% assign m = page.date | date: "%B" %} 
                 {% case m %}
@@ -24,5 +25,6 @@
                 {% endcase %}
                 {{ page.date | date: " %d, %Y" }}
         </footer>
+        {% endif %}
     </body>
 </html>
