@@ -1,5 +1,17 @@
+@font-face {
+        font-family: abhaya-libre;
+        src: url(/fonts/abhaya-libre/AbhayaLibre-Medium.ttf);
+}
+
+@font-face {
+        font-family: abhaya-libre;
+        font-weight: bold;
+        src: url(/fonts/abhaya-libre/AbhayaLibre-ExtraBold.ttf);
+}
+
+
 body {
-    font-family: Georgia;
+    font-family: abhaya-libre;
 }
 
 main {
@@ -46,7 +58,7 @@ li {
 }
 
 p {
-    font-size: 12pt;
+    font-size: 13pt;
     text-align: justify;
 
     margin-left: 20%;
